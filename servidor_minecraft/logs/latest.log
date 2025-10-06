@@ -99,3 +99,5 @@
 [06Oct2025 17:54:07.610] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GNS_03[/127.131.50.53:45281] logged in with entity id 311 at (-6.5, 65.0, -172.5)
 [06Oct2025 17:54:07.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 joined the game
 [06Oct2025 18:07:09.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was slain by Zombie
+[06Oct2025 18:22:40.471] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GNS_03 lost connection: Disconnected
+[06Oct2025 18:22:40.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 left the game

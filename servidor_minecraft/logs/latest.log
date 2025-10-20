@@ -1,0 +1,559 @@
+[20Oct2025 17:32:55.698] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Oct2025 17:32:55.704] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[20Oct2025 17:32:55.827] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Oct2025 17:32:55.970] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Oct2025 17:32:56.325] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.509] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20Oct2025 17:32:58.317] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Oct2025 17:33:04.412] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Oct2025 17:33:04.415] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Oct2025 17:33:05.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Oct2025 17:33:05.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[20Oct2025 17:33:06.346] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Oct2025 17:33:06.916] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[20Oct2025 17:33:06.917] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[20Oct2025 17:33:08.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20Oct2025 17:33:08.690] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[20Oct2025 17:33:09.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Oct2025 17:33:09.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Oct2025 17:33:09.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[20Oct2025 17:33:09.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Oct2025 17:33:09.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Oct2025 17:33:09.301] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Oct2025 17:33:09.431] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Oct2025 17:33:09.431] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Oct2025 17:33:09.431] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Oct2025 17:33:09.432] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Oct2025 17:33:09.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Oct2025 17:33:12.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Oct2025 17:33:13.674] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:13.677] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:13.680] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:14.100] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:14.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:15.142] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:15.600] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:16.127] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:16.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[20Oct2025 17:33:17.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20Oct2025 17:33:17.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[20Oct2025 17:33:18.098] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Oct2025 17:33:18.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[20Oct2025 17:33:19.104] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[20Oct2025 17:33:19.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[20Oct2025 17:33:20.098] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[20Oct2025 17:33:20.598] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[20Oct2025 17:33:21.099] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[20Oct2025 17:33:21.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[20Oct2025 17:33:22.099] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[20Oct2025 17:33:22.616] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[20Oct2025 17:33:23.113] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[20Oct2025 17:33:23.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[20Oct2025 17:33:24.099] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[20Oct2025 17:33:24.604] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[20Oct2025 17:33:25.099] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[20Oct2025 17:33:25.597] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[20Oct2025 17:33:26.107] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[20Oct2025 17:33:26.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[20Oct2025 17:33:27.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[20Oct2025 17:33:27.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[20Oct2025 17:33:28.097] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[20Oct2025 17:33:28.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[20Oct2025 17:33:29.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[20Oct2025 17:33:29.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[20Oct2025 17:33:30.097] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[20Oct2025 17:33:30.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[20Oct2025 17:33:31.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[20Oct2025 17:33:31.601] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[20Oct2025 17:33:32.102] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[20Oct2025 17:33:32.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[20Oct2025 17:33:33.097] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[20Oct2025 17:33:33.614] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[20Oct2025 17:33:34.101] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[20Oct2025 17:33:34.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[20Oct2025 17:33:35.130] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[20Oct2025 17:33:35.610] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[20Oct2025 17:33:36.124] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[20Oct2025 17:33:36.597] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[20Oct2025 17:33:37.133] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[20Oct2025 17:33:37.586] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 24989 ms
+[20Oct2025 17:33:37.586] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (28.137s)! For help, type "help"
+[20Oct2025 17:33:37.606] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Oct2025 17:33:40.074] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GNS_03[/127.131.50.53:39227] logged in with entity id 480 at (-7.3278779505237575, 69.0, -180.8278463772995)
+[20Oct2025 17:33:40.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 joined the game
+[20Oct2025 17:33:59.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jorgitor2[/127.183.239.98:36331] logged in with entity id 703 at (-23.5, 67.0, -175.5)
+[20Oct2025 17:33:59.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 joined the game
+[20Oct2025 17:34:05.419] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:57269] logged in with entity id 816 at (-23.5, 66.0, -165.5)
+[20Oct2025 17:34:05.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 17:34:11.176] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Capibarita[/127.48.187.169:35189] logged in with entity id 821 at (-16.5, 65.0, -168.5)
+[20Oct2025 17:34:11.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita joined the game
+[20Oct2025 17:34:18.367] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luis[/127.154.49.239:41469] logged in with entity id 826 at (-9.5, 65.0, -172.5)
+[20Oct2025 17:34:18.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis joined the game
+[20Oct2025 17:34:35.515] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: Disconnected
+[20Oct2025 17:34:35.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 17:34:35.567] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[20Oct2025 17:35:37.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis has made the advancement [Best Friends Forever]
+[20Oct2025 17:36:06.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has reached the goal [Sky's the Limit]
+[20Oct2025 17:36:45.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has reached the goal [Sky's the Limit]
+[20Oct2025 17:37:05.071] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:54161] logged in with entity id 1412 at (-23.5, 66.0, -165.5)
+[20Oct2025 17:37:05.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 17:38:35.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported GNS_03 to 0.500000, 80.000000, 0.500000]
+[20Oct2025 17:38:38.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported GNS_03 to 0.500000, 80.000000, 0.500000]
+[20Oct2025 17:38:44.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported GNS_03 to 0.500000, 100.000000, 0.500000]
+[20Oct2025 17:38:50.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose has completed the challenge [Cover Me in Debris]
+[20Oct2025 17:38:59.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Changed the block at 0, 100, 0]
+[20Oct2025 17:39:19.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis has made the advancement [Take Aim]
+[20Oct2025 17:39:20.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 676 block(s)]
+[20Oct2025 17:40:20.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Gamerule doDaylightCycle is now set to: false]
+[20Oct2025 17:40:27.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Set the time to 23500]
+[20Oct2025 17:40:32.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Set the time to 25500]
+[20Oct2025 17:41:36.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * jorgitor2 died
+[20Oct2025 17:42:35.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 has made the advancement [Glow and Behold!]
+[20Oct2025 17:44:10.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Created new objective [Saltos]]
+[20Oct2025 17:44:52.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set display slot list to show objective Saltos]
+[20Oct2025 17:46:10.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:16.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:21.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:27.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:31.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:35.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:47:52.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capibarita> Fue Jose
+[20Oct2025 17:47:57.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported 5 entities to GNS_03]
+[20Oct2025 17:47:59.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 5 item(s) from player GNS_03]
+[20Oct2025 17:49:06.362] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: Timed out
+[20Oct2025 17:49:06.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 17:50:45.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has made the advancement [Glow and Behold!]
+[20Oct2025 17:51:58.022] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:54031] logged in with entity id 10448 at (24.419878726914355, 102.0, 8.832053329340415)
+[20Oct2025 17:51:58.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 17:59:05.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 5 item(s) from player GNS_03]
+[20Oct2025 18:00:59.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:01.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 63 item(s) from player GNS_03]
+[20Oct2025 18:01:16.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:18.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:19.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:20.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:21.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has made the advancement [Who is Cutting Onions?]
+[20Oct2025 18:01:25.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Guardian]
+[20Oct2025 18:01:39.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Villager]
+[20Oct2025 18:02:02.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Warden]
+[20Oct2025 18:02:25.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Ol' Betsy]
+[20Oct2025 18:02:25.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Take Aim]
+[20Oct2025 18:04:07.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 1 item(s) from player GNS_03]
+[20Oct2025 18:06:33.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GNS_03> &/
+[20Oct2025 18:07:01.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Gave 1 [Structure Block] to 5]
+[20Oct2025 18:10:36.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 132 item(s) from player GNS_03]
+[20Oct2025 18:11:37.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:11:46.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:11:46.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Killed GNS_03]
+[20Oct2025 18:11:51.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:11:51.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Killed GNS_03]
+[20Oct2025 18:12:11.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jorgitor2 moved too quickly! -10.039220419198521,0.8110659922672596,-0.00722174297669298
+[20Oct2025 18:12:14.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:14.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:14.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:14.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:45.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:12:48.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:12:57.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GNS_03> holaa
+[20Oct2025 18:13:12.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:13:12.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:14:00.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jorgitor2> 26 101 26
+[20Oct2025 18:14:27.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:14:27.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:14:35.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Teleported jorgitor2 to 0.500000, 100.000000, 0.500000]
+[20Oct2025 18:14:42.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Gamerule keepInventory is now set to: true]
+[20Oct2025 18:15:15.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 3 item(s) from player GNS_03]
+[20Oct2025 18:15:37.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:15:37.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:15:41.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Teleported jorgitor2 to 0.500000, 100.000000, 0.500000]
+[20Oct2025 18:15:58.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:16:10.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:16:10.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:16:37.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:16:39.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:16:39.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:16:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:16:45.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:16:45.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:16:45.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:16:53.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Glow and Behold!]
+[20Oct2025 18:17:00.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:05.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:07.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:08.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:17:09.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:12.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:14.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:17:14.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:17:16.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:02.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:18:27.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:45.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:47.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Capibarita: Gave 1 [Barrier] to Capibarita]
+[20Oct2025 18:19:20.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:20:29.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:20:40.013] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12450, l='ServerLevel[world]', x=32.07, y=62.59, z=24.07] died, message: 'Villager was shot by Capibarita'
+[20Oct2025 18:20:41.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:21:10.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:21:20.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Reset [Saltos] for 5 entities]
+[20Oct2025 18:21:22.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:22:05.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:22:07.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:22:32.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:22:33.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Reset [Saltos] for 5 entities]
+[20Oct2025 18:22:35.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:22:45.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:22:49.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:22:57.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:23:25.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Creative Mode]
+[20Oct2025 18:23:50.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: You logged in from another location
+[20Oct2025 18:23:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 18:23:50.820] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:51493] logged in with entity id 16331 at (23.08245713456934, 102.0, 8.435915102050242)
+[20Oct2025 18:23:50.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 18:24:31.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has made the advancement [Take Aim]
+[20Oct2025 18:24:35.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:24:46.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:24:47.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jose: Killed Jose]
+[20Oct2025 18:24:47.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:24:58.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:25:05.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 9 item(s) from player GNS_03]
+[20Oct2025 18:25:36.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:26:41.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:26:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:26:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:26:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:26:46.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:26:46.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:26:46.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:26:46.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:26:50.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Enchanter]
+[20Oct2025 18:27:25.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 3 item(s) from player GNS_03]
+[20Oct2025 18:27:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:27:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:27:39.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:27:50.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:27:54.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:27:54.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:27:57.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 2 item(s) from player GNS_03]
+[20Oct2025 18:28:09.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:10.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:28:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:28:14.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:28:14.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:28:16.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:23.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:31.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:28:31.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:28:31.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:28:31.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:28:37.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:39.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:44.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:28:58.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:29:08.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:29:10.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:29:10.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Luis]
+[20Oct2025 18:29:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis was killed
+[20Oct2025 18:29:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Luis]
+[20Oct2025 18:29:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Luis]
+[20Oct2025 18:29:49.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:29:50.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:29:54.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:04.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 4 item(s) from player GNS_03]
+[20Oct2025 18:30:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:30:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:30:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:30:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:30:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:30:09.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:09.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:09.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:30:09.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:30:09.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:30:09.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:30:11.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:30:12.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:30:12.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:30:12.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:30:12.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:12.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:20.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:30:20.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:30:20.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:21.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:21.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:25.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:25.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:26.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:30:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:30:28.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:30:28.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:28.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:30:28.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:30:30.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:32.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:30:36.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:36.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:30:41.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:30:41.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:30:41.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:43.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:44.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:46.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:51.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:30:51.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:51.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:53.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:31:02.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:31:02.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:31:04.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:31:04.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:31:04.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:31:04.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:31:04.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:31:08.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:31:08.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:31:08.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:31:09.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:31:13.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:31:14.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:31:45.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:31:46.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:31:51.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 2 item(s) from player GNS_03]
+[20Oct2025 18:32:27.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:32:27.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:33:21.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:33:24.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:33:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:33:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Luis]
+[20Oct2025 18:33:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis was killed
+[20Oct2025 18:33:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Luis]
+[20Oct2025 18:33:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Luis]
+[20Oct2025 18:33:44.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:34:01.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:34:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:34:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:34:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:34:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:34:10.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:10.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:30.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:49.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:54.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:35:00.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:35:02.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:35:02.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:35:02.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:35:02.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:35:02.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:35:25.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:35:25.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:35:25.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:35:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:35:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:35:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:35:30.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:35:31.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:23.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:25.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:36:25.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:36:25.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:36:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:36:28.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:36:28.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:36:35.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:36:40.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:42.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:46.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:36:46.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:36:46.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:36:56.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:56.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Capibarita: Gave 1 [Command Block] to Capibarita]
+[20Oct2025 18:36:58.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:37:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:37:46.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Capibarita]
+[20Oct2025 18:38:05.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:38:28.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:38:30.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:38:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:38:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:38:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:38:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:38:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:39:20.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 6 item(s) from player GNS_03]
+[20Oct2025 18:39:37.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:39:45.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:39:45.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Luis]
+[20Oct2025 18:39:45.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis was killed
+[20Oct2025 18:39:45.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Luis]
+[20Oct2025 18:39:45.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Luis]
+[20Oct2025 18:39:48.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:39:49.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:40:03.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:40:17.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:40:34.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:40:41.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:40:42.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:41:14.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Successfully filled 255 block(s)]
+[20Oct2025 18:41:21.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:23.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:30.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:30.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:41:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:41:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:41:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:41:34.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:36.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:38.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:41:40.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:41.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Successfully filled 255 block(s)]
+[20Oct2025 18:41:42.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:41:42.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:41:42.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:41:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:41:54.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:42:15.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:42:22.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:42:44.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:43:40.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:43:40.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:43:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:43:42.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:44:10.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:44:22.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:44:35.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 1 item(s) from player GNS_03]
+[20Oct2025 18:44:39.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:44:39.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:44:39.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:44:39.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:44:39.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:44:55.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:44:57.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:45:25.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:46:37.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jorgitor2> 69 108 26
+[20Oct2025 18:46:40.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:46:45.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:47:05.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luis> efsdhk,shdef
+[20Oct2025 18:47:18.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jorgitor2> si
+[20Oct2025 18:47:52.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:48:19.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:48:40.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:48:40.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:48:40.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:48:40.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:48:40.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:48:52.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:48:53.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Creative Mode]
+[20Oct2025 18:48:54.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:48:55.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Creative Mode]
+[20Oct2025 18:49:15.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:15.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:49:31.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:31.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:49:31.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:49:31.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:49:31.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:49:33.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:51.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:56.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:58.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:49:58.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:49:58.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:49:58.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:50:00.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:50:02.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:50:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:50:09.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:50:09.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:50:09.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:50:12.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:16.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:20.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:50:20.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:50:20.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:50:25.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:39.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:55.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:50:58.762] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Capibarita lost connection: Disconnected
+[20Oct2025 18:50:58.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita left the game
+[20Oct2025 18:51:00.163] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jorgitor2 lost connection: Disconnected
+[20Oct2025 18:51:00.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 left the game
+[20Oct2025 18:51:02.913] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: Disconnected
+[20Oct2025 18:51:02.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 18:51:09.312] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GNS_03 lost connection: Disconnected
+[20Oct2025 18:51:09.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 left the game
+[20Oct2025 18:52:07.261] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luis lost connection: Disconnected
+[20Oct2025 18:52:07.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis left the game

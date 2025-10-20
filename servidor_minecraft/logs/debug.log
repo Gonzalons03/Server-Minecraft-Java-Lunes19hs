@@ -1,0 +1,1165 @@
+[20Oct2025 17:32:55.698] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Oct2025 17:32:55.704] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[20Oct2025 17:32:55.733] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[20Oct2025 17:32:55.748] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[20Oct2025 17:32:55.773] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[20Oct2025 17:32:55.784] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[20Oct2025 17:32:55.788] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft
+[20Oct2025 17:32:55.788] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/mods
+[20Oct2025 17:32:55.788] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/config
+[20Oct2025 17:32:55.789] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/config/fml.toml
+[20Oct2025 17:32:55.821] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[20Oct2025 17:32:55.827] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Oct2025 17:32:55.833] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[20Oct2025 17:32:55.833] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[20Oct2025 17:32:55.834] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[20Oct2025 17:32:55.834] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[20Oct2025 17:32:55.834] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[20Oct2025 17:32:55.835] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[20Oct2025 17:32:55.836] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[20Oct2025 17:32:55.836] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[20Oct2025 17:32:55.836] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[20Oct2025 17:32:55.837] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[20Oct2025 17:32:55.837] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[20Oct2025 17:32:55.839] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.1.6
+[20Oct2025 17:32:55.839] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[20Oct2025 17:32:55.839] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[20Oct2025 17:32:55.840] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[20Oct2025 17:32:55.840] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[20Oct2025 17:32:55.853] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[20Oct2025 17:32:55.853] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[20Oct2025 17:32:55.872] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@7a3d45bd
+[20Oct2025 17:32:55.970] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Oct2025 17:32:55.973] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[20Oct2025 17:32:55.973] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Oct2025 17:32:55.974] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Oct2025 17:32:55.974] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Oct2025 17:32:55.975] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Oct2025 17:32:55.975] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Oct2025 17:32:55.981] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[20Oct2025 17:32:55.981] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[20Oct2025 17:32:55.981] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[20Oct2025 17:32:55.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft
+[20Oct2025 17:32:55.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/mods
+[20Oct2025 17:32:55.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/config
+[20Oct2025 17:32:55.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/config/fml.toml
+[20Oct2025 17:32:55.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[20Oct2025 17:32:55.985] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[20Oct2025 17:32:55.987] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[20Oct2025 17:32:55.988] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[20Oct2025 17:32:56.001] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.3.7, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[20Oct2025 17:32:56.002] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[20Oct2025 17:32:56.003] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[20Oct2025 17:32:56.003] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[20Oct2025 17:32:56.003] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[20Oct2025 17:32:56.004] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[20Oct2025 17:32:56.005] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[20Oct2025 17:32:56.005] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[20Oct2025 17:32:56.005] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[20Oct2025 17:32:56.014] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[20Oct2025 17:32:56.018] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[20Oct2025 17:32:56.018] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[20Oct2025 17:32:56.271] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[20Oct2025 17:32:56.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar
+[20Oct2025 17:32:56.325] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar
+[20Oct2025 17:32:56.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.331] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar
+[20Oct2025 17:32:56.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.333] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar
+[20Oct2025 17:32:56.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 17:32:56.458] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[20Oct2025 17:32:56.463] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.7-universal.jar with {forge} mods - versions {47.3.7}
+[20Oct2025 17:32:56.475] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
+[20Oct2025 17:32:56.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.1-47.3.7-universal.jar, it does not contain dependency information.
+[20Oct2025 17:32:56.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.20.1-47.3.7.jar, it does not contain dependency information.
+[20Oct2025 17:32:56.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.20.1-47.3.7.jar, it does not contain dependency information.
+[20Oct2025 17:32:56.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.20.1-47.3.7.jar, it does not contain dependency information.
+[20Oct2025 17:32:56.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.20.1-47.3.7.jar, it does not contain dependency information.
+[20Oct2025 17:32:56.509] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20Oct2025 17:32:56.512] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[20Oct2025 17:32:56.514] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[20Oct2025 17:32:56.515] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[20Oct2025 17:32:56.517] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.7-universal.jar with {forge} mods - versions {47.3.7}
+[20Oct2025 17:32:56.517] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[20Oct2025 17:32:56.631] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[20Oct2025 17:32:56.631] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[20Oct2025 17:32:56.632] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[20Oct2025 17:32:56.632] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[20Oct2025 17:32:56.632] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[20Oct2025 17:32:56.633] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[20Oct2025 17:32:56.633] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[20Oct2025 17:32:56.633] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[20Oct2025 17:32:56.634] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[20Oct2025 17:32:56.647] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[20Oct2025 17:32:56.648] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[20Oct2025 17:32:56.649] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[20Oct2025 17:32:56.649] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[20Oct2025 17:32:56.653] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[20Oct2025 17:32:56.653] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[20Oct2025 17:32:56.653] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[20Oct2025 17:32:56.655] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[20Oct2025 17:32:56.655] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[20Oct2025 17:32:57.234] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[20Oct2025 17:32:57.235] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[20Oct2025 17:32:57.235] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[20Oct2025 17:32:57.235] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[20Oct2025 17:32:57.235] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[20Oct2025 17:32:57.236] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[20Oct2025 17:32:57.567] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Oct2025 17:32:57.567] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[20Oct2025 17:32:57.624] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Oct2025 17:32:57.624] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[20Oct2025 17:32:57.658] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Oct2025 17:32:57.659] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[20Oct2025 17:32:57.714] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Oct2025 17:32:57.722] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@512d6e60 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[20Oct2025 17:32:57.723] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@378f002a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[20Oct2025 17:32:57.723] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1afd72ef to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[20Oct2025 17:32:57.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2cc75074 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[20Oct2025 17:32:57.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@445bb139 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[20Oct2025 17:32:57.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@b9a77c8 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[20Oct2025 17:32:57.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7a81065e to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[20Oct2025 17:32:57.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6cd3ad8a to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[20Oct2025 17:32:57.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@75181b50 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[20Oct2025 17:32:57.725] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[20Oct2025 17:32:57.726] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[20Oct2025 17:32:57.727] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[20Oct2025 17:32:58.314] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20Oct2025 17:32:58.314] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20Oct2025 17:32:58.314] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[20Oct2025 17:32:58.315] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[20Oct2025 17:32:58.315] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[20Oct2025 17:32:58.315] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[20Oct2025 17:32:58.315] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[20Oct2025 17:32:58.315] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[20Oct2025 17:32:58.315] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[20Oct2025 17:32:58.316] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20Oct2025 17:32:58.317] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[20Oct2025 17:32:58.317] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[20Oct2025 17:32:58.317] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Oct2025 17:32:58.396] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[20Oct2025 17:32:58.398] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[20Oct2025 17:32:58.551] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[20Oct2025 17:32:58.554] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[20Oct2025 17:32:58.554] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[20Oct2025 17:32:58.890] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@7e446d92
+[20Oct2025 17:32:58.890] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Oct2025 17:32:58.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Oct2025 17:32:58.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Oct2025 17:32:58.974] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[20Oct2025 17:32:58.997] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Oct2025 17:32:58.998] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Oct2025 17:32:58.999] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Oct2025 17:32:58.999] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Oct2025 17:32:59.000] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Oct2025 17:32:59.002] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Oct2025 17:32:59.002] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Oct2025 17:32:59.003] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Oct2025 17:32:59.004] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Oct2025 17:32:59.004] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Oct2025 17:32:59.005] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Oct2025 17:32:59.005] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Oct2025 17:32:59.005] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Oct2025 17:32:59.006] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Oct2025 17:32:59.006] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Oct2025 17:32:59.007] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Oct2025 17:32:59.007] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Oct2025 17:32:59.007] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Oct2025 17:32:59.007] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Oct2025 17:32:59.008] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Oct2025 17:32:59.010] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Oct2025 17:32:59.022] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Oct2025 17:32:59.029] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@7e446d92
+[20Oct2025 17:32:59.029] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Oct2025 17:32:59.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Oct2025 17:32:59.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Oct2025 17:32:59.519] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[20Oct2025 17:33:00.084] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[20Oct2025 17:33:00.124] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[20Oct2025 17:33:00.197] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[20Oct2025 17:33:00.991] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[20Oct2025 17:33:01.626] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[20Oct2025 17:33:01.676] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[20Oct2025 17:33:02.558] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[20Oct2025 17:33:02.613] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[20Oct2025 17:33:02.784] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[20Oct2025 17:33:02.847] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[20Oct2025 17:33:03.024] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[20Oct2025 17:33:03.045] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[20Oct2025 17:33:03.161] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[20Oct2025 17:33:03.297] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[20Oct2025 17:33:03.748] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[20Oct2025 17:33:03.784] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[20Oct2025 17:33:03.797] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[20Oct2025 17:33:03.814] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[20Oct2025 17:33:03.843] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[20Oct2025 17:33:04.084] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[20Oct2025 17:33:04.347] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6430
+[20Oct2025 17:33:04.367] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[20Oct2025 17:33:04.374] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@7e446d92 - got cpw.mods.cl.ModuleClassLoader@347bdeef
+[20Oct2025 17:33:04.374] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[20Oct2025 17:33:04.409] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.3 from cpw.mods.modlauncher.TransformingClassLoader@7e446d92
+[20Oct2025 17:33:04.410] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.3.7
+[20Oct2025 17:33:04.410] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.3
+[20Oct2025 17:33:04.410] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[20Oct2025 17:33:04.411] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@7e446d92
+[20Oct2025 17:33:04.412] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[20Oct2025 17:33:04.412] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[20Oct2025 17:33:04.412] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Oct2025 17:33:04.415] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Oct2025 17:33:04.471] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[20Oct2025 17:33:04.472] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[20Oct2025 17:33:04.472] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[20Oct2025 17:33:04.473] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[20Oct2025 17:33:04.473] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[20Oct2025 17:33:04.473] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[20Oct2025 17:33:04.474] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.3.7-universal.jar%23106!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.3.7-universal.jar%23106!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23103!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23102!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20Oct2025 17:33:04.475] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[20Oct2025 17:33:04.476] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.3.7-universal.jar%23106!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.3.7-universal.jar%23106!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23103!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23102!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20Oct2025 17:33:04.477] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[20Oct2025 17:33:04.477] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[20Oct2025 17:33:04.477] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 17179869184 bytes (maybe)
+[20Oct2025 17:33:04.478] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[20Oct2025 17:33:04.478] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20Oct2025 17:33:04.478] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[20Oct2025 17:33:04.478] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[20Oct2025 17:33:04.479] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[20Oct2025 17:33:04.479] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[20Oct2025 17:33:04.498] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[20Oct2025 17:33:04.526] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[20Oct2025 17:33:04.527] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[20Oct2025 17:33:04.527] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[20Oct2025 17:33:04.557] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[20Oct2025 17:33:04.560] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[20Oct2025 17:33:04.618] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[20Oct2025 17:33:04.619] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[20Oct2025 17:33:04.619] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[20Oct2025 17:33:04.620] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[20Oct2025 17:33:04.751] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[20Oct2025 17:33:05.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Oct2025 17:33:05.955] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.60",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.11",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.1",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.2",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.0",
+    "1.20.1-latest": "47.4.10",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.2",
+    "1.20.4-recommended": "49.2.0",
+    "1.20.6-latest": "50.2.2",
+    "1.20.6-recommended": "50.2.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.5",
+    "1.21.1-recommended": "52.1.0",
+    "1.21.3-latest": "53.1.4",
+    "1.21.3-recommended": "53.1.0",
+    "1.21.4-latest": "54.1.8",
+    "1.21.4-recommended": "54.1.0",
+    "1.21.5-latest": "55.1.2",
+    "1.21.5-recommended": "55.1.0",
+    "1.21.6-latest": "56.0.9",
+    "1.21.7-latest": "57.0.3",
+    "1.21.8-latest": "58.1.7",
+    "1.21.8-recommended": "58.1.0",
+    "1.21.9-latest": "59.0.5",
+    "1.21.10-latest": "60.0.8"
+  }
+}
+[20Oct2025 17:33:05.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[20Oct2025 17:33:06.346] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Oct2025 17:33:06.916] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[20Oct2025 17:33:06.917] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[20Oct2025 17:33:06.973] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /workspaces/Server-Minecraft-Java-Lunes19hs/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[20Oct2025 17:33:07.810] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[20Oct2025 17:33:08.252] [Worker-Main-2/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[20Oct2025 17:33:08.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20Oct2025 17:33:08.690] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[20Oct2025 17:33:09.059] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 17:33:09.072] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 17:33:09.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Oct2025 17:33:09.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Oct2025 17:33:09.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[20Oct2025 17:33:09.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Oct2025 17:33:09.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Oct2025 17:33:09.278] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[20Oct2025 17:33:09.284] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[20Oct2025 17:33:09.284] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[20Oct2025 17:33:09.284] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[20Oct2025 17:33:09.284] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[20Oct2025 17:33:09.292] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_645983987568406298971.so
+[20Oct2025 17:33:09.295] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[20Oct2025 17:33:09.295] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[20Oct2025 17:33:09.296] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[20Oct2025 17:33:09.298] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[20Oct2025 17:33:09.301] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Oct2025 17:33:09.317] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 8
+[20Oct2025 17:33:09.329] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[20Oct2025 17:33:09.330] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[20Oct2025 17:33:09.340] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[20Oct2025 17:33:09.348] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 54679 (auto-detected)
+[20Oct2025 17:33:09.350] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 60:45:bd:ff:fe:cc:cd:6f (auto-detected)
+[20Oct2025 17:33:09.413] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 8
+[20Oct2025 17:33:09.413] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 8
+[20Oct2025 17:33:09.413] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[20Oct2025 17:33:09.414] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[20Oct2025 17:33:09.415] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[20Oct2025 17:33:09.423] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[20Oct2025 17:33:09.423] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[20Oct2025 17:33:09.423] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20Oct2025 17:33:09.431] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Oct2025 17:33:09.431] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Oct2025 17:33:09.431] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Oct2025 17:33:09.432] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Oct2025 17:33:09.449] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[20Oct2025 17:33:09.451] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[20Oct2025 17:33:09.452] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[20Oct2025 17:33:09.458] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[20Oct2025 17:33:09.462] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[20Oct2025 17:33:09.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Oct2025 17:33:09.503] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[20Oct2025 17:33:09.525] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[20Oct2025 17:33:09.551] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[20Oct2025 17:33:09.587] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[20Oct2025 17:33:12.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Oct2025 17:33:13.674] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:13.677] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:13.680] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:13.794] [Worker-Main-2/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[20Oct2025 17:33:14.100] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:14.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:15.142] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:15.600] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:16.127] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 17:33:16.555] [Worker-Main-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[20Oct2025 17:33:16.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[20Oct2025 17:33:17.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20Oct2025 17:33:17.561] [Worker-Main-1/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x33fb3c71ac06ddaf
+[20Oct2025 17:33:17.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[20Oct2025 17:33:18.098] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Oct2025 17:33:18.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[20Oct2025 17:33:19.104] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[20Oct2025 17:33:19.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[20Oct2025 17:33:20.098] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[20Oct2025 17:33:20.598] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[20Oct2025 17:33:21.099] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[20Oct2025 17:33:21.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[20Oct2025 17:33:22.099] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[20Oct2025 17:33:22.616] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[20Oct2025 17:33:23.113] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[20Oct2025 17:33:23.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[20Oct2025 17:33:24.099] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[20Oct2025 17:33:24.604] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[20Oct2025 17:33:25.099] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[20Oct2025 17:33:25.597] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[20Oct2025 17:33:26.107] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[20Oct2025 17:33:26.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[20Oct2025 17:33:27.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[20Oct2025 17:33:27.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[20Oct2025 17:33:28.097] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[20Oct2025 17:33:28.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[20Oct2025 17:33:29.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[20Oct2025 17:33:29.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[20Oct2025 17:33:30.097] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[20Oct2025 17:33:30.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[20Oct2025 17:33:31.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[20Oct2025 17:33:31.601] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[20Oct2025 17:33:32.102] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[20Oct2025 17:33:32.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[20Oct2025 17:33:33.097] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[20Oct2025 17:33:33.614] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[20Oct2025 17:33:34.101] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[20Oct2025 17:33:34.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[20Oct2025 17:33:35.130] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[20Oct2025 17:33:35.610] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[20Oct2025 17:33:36.124] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[20Oct2025 17:33:36.597] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[20Oct2025 17:33:37.133] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[20Oct2025 17:33:37.586] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 24989 ms
+[20Oct2025 17:33:37.586] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (28.137s)! For help, type "help"
+[20Oct2025 17:33:37.595] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[20Oct2025 17:33:37.603] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 213
+[20Oct2025 17:33:37.606] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Oct2025 17:33:37.626] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[20Oct2025 17:33:37.626] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[20Oct2025 17:33:37.627] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@382b495e
+[20Oct2025 17:33:39.932] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[20Oct2025 17:33:39.932] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[20Oct2025 17:33:39.932] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[20Oct2025 17:33:39.932] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:39.947] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:33:39.949] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:33:39.982] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:33:40.074] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GNS_03[/127.131.50.53:39227] logged in with entity id 480 at (-7.3278779505237575, 69.0, -180.8278463772995)
+[20Oct2025 17:33:40.083] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@2300000e into net.minecraft.network.Connection@e7db88d
+[20Oct2025 17:33:40.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 joined the game
+[20Oct2025 17:33:59.808] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:33:59.809] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:33:59.815] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:33:59.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jorgitor2[/127.183.239.98:36331] logged in with entity id 703 at (-23.5, 67.0, -175.5)
+[20Oct2025 17:33:59.869] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6d80e7d3 into net.minecraft.network.Connection@36794564
+[20Oct2025 17:33:59.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 joined the game
+[20Oct2025 17:34:05.358] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.358] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.358] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.359] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.359] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.359] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.359] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:05.359] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:34:05.359] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:34:05.367] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:34:05.419] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:57269] logged in with entity id 816 at (-23.5, 66.0, -165.5)
+[20Oct2025 17:34:05.420] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@ca5258a into net.minecraft.network.Connection@1b554b2a
+[20Oct2025 17:34:05.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 17:34:11.112] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.112] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.112] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.113] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.113] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.113] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.113] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:11.113] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:34:11.113] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:34:11.116] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:34:11.176] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Capibarita[/127.48.187.169:35189] logged in with entity id 821 at (-16.5, 65.0, -168.5)
+[20Oct2025 17:34:11.177] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@591b33de into net.minecraft.network.Connection@414fe4ec
+[20Oct2025 17:34:11.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita joined the game
+[20Oct2025 17:34:18.296] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:34:18.297] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:34:18.314] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:34:18.367] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luis[/127.154.49.239:41469] logged in with entity id 826 at (-9.5, 65.0, -172.5)
+[20Oct2025 17:34:18.368] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@43982080 into net.minecraft.network.Connection@57a2279b
+[20Oct2025 17:34:18.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis joined the game
+[20Oct2025 17:34:35.515] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: Disconnected
+[20Oct2025 17:34:35.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 17:34:35.567] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[20Oct2025 17:35:37.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis has made the advancement [Best Friends Forever]
+[20Oct2025 17:36:06.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has reached the goal [Sky's the Limit]
+[20Oct2025 17:36:45.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has reached the goal [Sky's the Limit]
+[20Oct2025 17:37:04.973] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:37:04.974] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:37:05.016] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:37:05.071] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:54161] logged in with entity id 1412 at (-23.5, 66.0, -165.5)
+[20Oct2025 17:37:05.072] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@1ef3118d into net.minecraft.network.Connection@5bf6b678
+[20Oct2025 17:37:05.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 17:38:35.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported GNS_03 to 0.500000, 80.000000, 0.500000]
+[20Oct2025 17:38:37.606] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 17:38:37.616] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 17:38:38.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported GNS_03 to 0.500000, 80.000000, 0.500000]
+[20Oct2025 17:38:44.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported GNS_03 to 0.500000, 100.000000, 0.500000]
+[20Oct2025 17:38:50.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose has completed the challenge [Cover Me in Debris]
+[20Oct2025 17:38:59.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Changed the block at 0, 100, 0]
+[20Oct2025 17:39:19.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis has made the advancement [Take Aim]
+[20Oct2025 17:39:20.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 676 block(s)]
+[20Oct2025 17:40:20.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Gamerule doDaylightCycle is now set to: false]
+[20Oct2025 17:40:27.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Set the time to 23500]
+[20Oct2025 17:40:32.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Set the time to 25500]
+[20Oct2025 17:41:36.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * jorgitor2 died
+[20Oct2025 17:42:35.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 has made the advancement [Glow and Behold!]
+[20Oct2025 17:43:37.599] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 17:43:37.609] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 17:44:10.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Created new objective [Saltos]]
+[20Oct2025 17:44:52.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set display slot list to show objective Saltos]
+[20Oct2025 17:46:10.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:16.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:21.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:27.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:31.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:46:35.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Successfully filled 656 block(s)]
+[20Oct2025 17:47:52.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capibarita> Fue Jose
+[20Oct2025 17:47:57.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Teleported 5 entities to GNS_03]
+[20Oct2025 17:47:59.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 5 item(s) from player GNS_03]
+[20Oct2025 17:48:37.600] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 17:48:37.608] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 17:49:06.362] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: Timed out
+[20Oct2025 17:49:06.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 17:50:45.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has made the advancement [Glow and Behold!]
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 17:51:57.930] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 17:51:57.966] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 17:51:58.022] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:54031] logged in with entity id 10448 at (24.419878726914355, 102.0, 8.832053329340415)
+[20Oct2025 17:51:58.023] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@239f03dd into net.minecraft.network.Connection@4671ae2b
+[20Oct2025 17:51:58.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 17:53:37.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 17:53:37.603] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 17:58:37.584] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 17:58:37.588] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 17:59:05.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 5 item(s) from player GNS_03]
+[20Oct2025 18:00:59.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:01.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 63 item(s) from player GNS_03]
+[20Oct2025 18:01:16.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:18.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:19.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:20.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Elder Guardian]
+[20Oct2025 18:01:21.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has made the advancement [Who is Cutting Onions?]
+[20Oct2025 18:01:25.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Guardian]
+[20Oct2025 18:01:39.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Villager]
+[20Oct2025 18:02:02.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Summoned new Warden]
+[20Oct2025 18:02:25.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Ol' Betsy]
+[20Oct2025 18:02:25.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Take Aim]
+[20Oct2025 18:03:37.589] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:03:37.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:04:07.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 1 item(s) from player GNS_03]
+[20Oct2025 18:06:33.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GNS_03> &/
+[20Oct2025 18:07:01.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Gave 1 [Structure Block] to 5]
+[20Oct2025 18:08:37.578] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:08:37.583] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:10:36.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 132 item(s) from player GNS_03]
+[20Oct2025 18:11:37.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:11:46.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:11:46.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Killed GNS_03]
+[20Oct2025 18:11:51.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:11:51.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Killed GNS_03]
+[20Oct2025 18:12:11.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jorgitor2 moved too quickly! -10.039220419198521,0.8110659922672596,-0.00722174297669298
+[20Oct2025 18:12:14.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:14.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:14.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:14.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Made jorgitor2 a server operator]
+[20Oct2025 18:12:45.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:12:48.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:12:57.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GNS_03> holaa
+[20Oct2025 18:13:12.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:13:12.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:13:37.581] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:13:37.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:14:00.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jorgitor2> 26 101 26
+[20Oct2025 18:14:27.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:14:27.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:14:35.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Teleported jorgitor2 to 0.500000, 100.000000, 0.500000]
+[20Oct2025 18:14:42.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Gamerule keepInventory is now set to: true]
+[20Oct2025 18:15:15.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 3 item(s) from player GNS_03]
+[20Oct2025 18:15:37.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:15:37.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:15:41.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Teleported jorgitor2 to 0.500000, 100.000000, 0.500000]
+[20Oct2025 18:15:58.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:16:10.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:16:10.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:16:37.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:16:39.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:16:39.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:16:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:16:45.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:16:45.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:16:45.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:16:53.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Glow and Behold!]
+[20Oct2025 18:17:00.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:05.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:07.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:08.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:17:09.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:12.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:17:14.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:17:14.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Killed jorgitor2]
+[20Oct2025 18:17:16.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:02.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:18:27.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:37.579] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:18:37.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:18:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:45.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:18:47.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Capibarita: Gave 1 [Barrier] to Capibarita]
+[20Oct2025 18:19:20.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:20:29.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:20:40.013] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12450, l='ServerLevel[world]', x=32.07, y=62.59, z=24.07] died, message: 'Villager was shot by Capibarita'
+[20Oct2025 18:20:41.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:21:10.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:21:20.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Reset [Saltos] for 5 entities]
+[20Oct2025 18:21:22.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:22:05.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:22:07.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:22:32.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:22:33.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Reset [Saltos] for 5 entities]
+[20Oct2025 18:22:35.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:22:45.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:22:49.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:22:57.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:23:25.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Creative Mode]
+[20Oct2025 18:23:37.581] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:23:37.586] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[20Oct2025 18:23:50.711] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[20Oct2025 18:23:50.714] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Oct2025 18:23:50.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: You logged in from another location
+[20Oct2025 18:23:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 18:23:50.820] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jose[/127.106.4.15:51493] logged in with entity id 16331 at (23.08245713456934, 102.0, 8.435915102050242)
+[20Oct2025 18:23:50.820] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@3fe09f0 into net.minecraft.network.Connection@1593530a
+[20Oct2025 18:23:50.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose joined the game
+[20Oct2025 18:24:31.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 has made the advancement [Take Aim]
+[20Oct2025 18:24:35.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:24:46.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:46.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:24:47.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jose: Killed Jose]
+[20Oct2025 18:24:47.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:47.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:48.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:49.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:24:50.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:24:58.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:25:05.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 9 item(s) from player GNS_03]
+[20Oct2025 18:25:36.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:26:41.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:26:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:26:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:26:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:26:46.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:26:46.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:26:46.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:26:46.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:26:50.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita has made the advancement [Enchanter]
+[20Oct2025 18:27:25.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 3 item(s) from player GNS_03]
+[20Oct2025 18:27:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:27:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:27:39.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:27:50.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:27:54.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:27:54.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:27:57.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 2 item(s) from player GNS_03]
+[20Oct2025 18:28:09.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:10.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:28:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:28:14.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:28:14.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:28:16.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:23.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:31.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:28:31.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:28:31.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:28:31.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:28:37.579] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:28:37.584] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:28:37.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:39.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:28:44.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:28:58.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:29:08.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:29:10.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:29:10.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Luis]
+[20Oct2025 18:29:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis was killed
+[20Oct2025 18:29:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Luis]
+[20Oct2025 18:29:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Luis]
+[20Oct2025 18:29:49.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:29:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:29:50.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:29:54.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:04.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 4 item(s) from player GNS_03]
+[20Oct2025 18:30:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:30:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:30:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:30:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:30:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:30:09.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:09.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:09.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:30:09.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:30:09.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:30:09.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:30:11.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:30:12.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:30:12.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:30:12.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:30:12.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:12.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:20.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:30:20.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:30:20.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:21.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:21.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:25.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:25.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:26.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:30:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:30:28.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:30:28.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:28.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:30:28.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:30:30.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:32.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:30:36.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:36.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:30:41.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:30:41.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:30:41.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:30:41.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:43.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:44.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:46.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for 2 players]
+[20Oct2025 18:30:51.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:30:51.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:30:51.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:30:53.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:31:02.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:31:02.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:31:04.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:31:04.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:31:04.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:31:04.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:31:04.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:31:08.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported GNS_03 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:31:08.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:31:08.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:31:09.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:31:13.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:31:14.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:31:45.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:31:46.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:31:51.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 2 item(s) from player GNS_03]
+[20Oct2025 18:32:27.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:32:27.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:33:21.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:33:24.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:33:37.580] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:33:37.584] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:33:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:33:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Luis]
+[20Oct2025 18:33:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis was killed
+[20Oct2025 18:33:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Luis]
+[20Oct2025 18:33:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Luis]
+[20Oct2025 18:33:44.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:34:01.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:34:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:34:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:34:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:34:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:34:10.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:10.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:30.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:49.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:34:54.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:35:00.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:35:02.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:35:02.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:35:02.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:35:02.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:35:02.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:35:25.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:35:25.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:35:25.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:35:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:35:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:35:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:35:30.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:35:31.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:23.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:25.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:36:25.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:36:25.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:36:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:36:28.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:36:28.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:36:35.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:36:40.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:42.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:46.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 14.500000]
+[20Oct2025 18:36:46.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:36:46.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:36:56.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:36:56.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Capibarita: Gave 1 [Command Block] to Capibarita]
+[20Oct2025 18:36:58.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:37:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:37:46.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Capibarita]
+[20Oct2025 18:38:05.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:38:28.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:38:30.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:38:37.579] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:38:37.583] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:38:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:38:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:38:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:38:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:38:40.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:39:20.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 6 item(s) from player GNS_03]
+[20Oct2025 18:39:37.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:39:45.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:39:45.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Luis]
+[20Oct2025 18:39:45.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis was killed
+[20Oct2025 18:39:45.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Luis]
+[20Oct2025 18:39:45.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Luis]
+[20Oct2025 18:39:48.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:39:49.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:40:03.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:40:17.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:40:34.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:40:41.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:40:42.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:41:14.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Successfully filled 255 block(s)]
+[20Oct2025 18:41:21.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:23.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:30.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:30.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:41:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:41:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:41:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:41:34.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:36.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:38.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:41:40.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:41:41.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Successfully filled 255 block(s)]
+[20Oct2025 18:41:42.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:41:42.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:41:42.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:41:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 20 [0.0] in minecraft:overworld for Luis]
+[20Oct2025 18:41:54.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:42:15.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:42:22.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:42:44.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:43:37.578] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:43:37.582] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:43:40.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:43:40.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:43:40.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:43:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:43:42.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:44:10.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:44:22.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:44:35.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GNS_03: Removed 1 item(s) from player GNS_03]
+[20Oct2025 18:44:39.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for GNS_03]
+[20Oct2025 18:44:39.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for GNS_03]
+[20Oct2025 18:44:39.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 was killed
+[20Oct2025 18:44:39.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed GNS_03]
+[20Oct2025 18:44:39.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for GNS_03]
+[20Oct2025 18:44:55.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:44:57.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:45:25.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:46:37.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jorgitor2> 69 108 26
+[20Oct2025 18:46:40.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:46:45.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:47:05.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luis> efsdhk,shdef
+[20Oct2025 18:47:18.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jorgitor2> si
+[20Oct2025 18:47:52.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:48:19.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:48:37.579] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:48:37.583] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:48:40.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:48:40.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:48:40.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:48:40.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:48:40.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:48:52.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:48:53.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Creative Mode]
+[20Oct2025 18:48:54.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:48:55.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Creative Mode]
+[20Oct2025 18:49:15.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:15.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:49:31.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:31.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:49:31.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:49:31.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:49:31.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:49:33.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:51.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:56.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:49:58.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:49:58.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose was killed
+[20Oct2025 18:49:58.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Jose]
+[20Oct2025 18:49:58.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:50:00.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:50:02.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for Jose]
+[20Oct2025 18:50:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 was killed
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed jorgitor2]
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:50:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for 2 players]
+[20Oct2025 18:50:09.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Jose to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:50:09.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for Jose]
+[20Oct2025 18:50:09.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for Jose]
+[20Oct2025 18:50:12.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:16.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:20.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported jorgitor2 to 52.500000, 104.000000, 8.500000]
+[20Oct2025 18:50:20.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Reset [Saltos] for jorgitor2]
+[20Oct2025 18:50:20.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Showing new title for jorgitor2]
+[20Oct2025 18:50:25.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 8 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:39.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Set spawn point to 27, 103, 14 [0.0] in minecraft:overworld for jorgitor2]
+[20Oct2025 18:50:55.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jorgitor2: Set own game mode to Survival Mode]
+[20Oct2025 18:50:58.762] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Capibarita lost connection: Disconnected
+[20Oct2025 18:50:58.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capibarita left the game
+[20Oct2025 18:51:00.163] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jorgitor2 lost connection: Disconnected
+[20Oct2025 18:51:00.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jorgitor2 left the game
+[20Oct2025 18:51:02.913] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jose lost connection: Disconnected
+[20Oct2025 18:51:02.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jose left the game
+[20Oct2025 18:51:09.312] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GNS_03 lost connection: Disconnected
+[20Oct2025 18:51:09.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GNS_03 left the game
+[20Oct2025 18:52:07.261] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luis lost connection: Disconnected
+[20Oct2025 18:52:07.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luis left the game
+[20Oct2025 18:53:37.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:53:37.566] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 18:58:37.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 18:58:37.566] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 19:03:37.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 19:03:37.568] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 19:08:37.563] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 19:08:37.569] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Oct2025 19:13:37.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Oct2025 19:13:37.567] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
